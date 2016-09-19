@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {}
+
+
+/*logo样式*/
+
+.logo {
+    background: url(../images/logo.png) left center no-repeat;
+    height: 100px;
+    margin-left: 10%;
+}
+
+
+/*banner样式*/
+
+.banner {
+    background: url(../images/bg.png) center center no-repeat;
+    height: 640px;
+}
+
+
+/*banner左边样式*/
+
+.b-l {
+    float: left;
+    margin: 75px 0 0 10%;
+}
+
+
+/*banner右边样式*/
+
+.b-r {
+    float: right;
+    margin: 120px 10% 0 0;
+}
+
+
+/*banner右边下边样式*/
+
+.b-r-b {
+    margin-top: 65px;
+}
+
+.b-r-l {
+    float: left;
+}
+
+.b-r-r {
+    float: right;
+}
+
+.bt-ip {
+    width: 170px;
+    height: 56px;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 1.2rem;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+#bt-ip {
+    background: url(../images/iphone.png) 10px center no-repeat;
+    margin-bottom: 10px;
+}
+
+#bt-an {
+    background: url(../images/android.png) 10px center no-repeat;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding-left: 4px;
+    font-size: 1rem;
+}
+
+
+/*五个小icon的样式*/
+
+.icon {
+    float: left;
+    background: #f9f9f9;
+    width: 80%;
+    padding: 110px 10% 70px 10%;
+}
+
+.icon dl {
+    width: 23%;
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.icon dl dt {
+    text-align: center;
+}
+
+.icon dl dd {
+    line-height: 30px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.color {
+    color: #666;
+    clear: both;
+}
+
+.margin {
+    margin: 50px 0 0 18%;
+}
+
+#margin {
+    margin-right: 0%;
+}
+
+#margin-r {
+    margin-right: 0%;
+}
+
+.margin1 {
+    margin: 50px 0 0 17%;
+}
+
+
+/*每个板块下面那条线*/
+
+.line {
+    height: 10px;
+    border-bottom: #f9f9f9 solid 1px;
+    clear: both;
+}
+
+.line1 {
+    height: 10px;
+    background-color: #f9f9f9;
+    border-bottom: #fff solid 1px;
+    clear: both;
+}
+
+
+/*记录板块*/
+
+.log {
+    height: 620px;
+    padding: 0 15%;
+}
+
+.log-in {
+    background: url(../images/iphone1.png) right center no-repeat;
+    height: 620px;
+}
+
+.log p {
+    width: 25%;
+}
+
+.p1 {
+    font-size: 2rem;
+    font-weight: both;
+    padding: 160px 0 10px 0;
+}
+
+.p2 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.p3 {
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 50px;
+}
+
+
+/*问答板块*/
+
+.log-in1 {
+    background: url(../images/iphone2.png) left center no-repeat;
+    height: 620px;
+}
+
+.pp {
+    margin-left: 80%;
+}
+
+.log-bg {
+    background-color: #f9f9f9;
+}
+
+
+/*咨询板块*/
+
+.log-in2 {
+    background: url(../images/iphone3.png) right center no-repeat;
+    height: 620px;
+    margin-top: 100px;
+}
+
+footer img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+    /*banner适应*/
+    .b-l {
+        width: 100%;
+        margin: 0;
+    }
+    .b-l img {
+        display: block;
+        margin: auto;
+        margin-top: 75px;
+    }
+    .b-r {
+        float: left;
+        margin: 0 auto;
+        padding: 40px 0;
+        background: #86BA26;
+        width: 100%;
+    }
+    .b-r-r {
+        float: left;
+        margin-left: 20px;
+    }
+    .b-r-in {
+        margin: 0 auto;
+        width: 341px;
+    }
+    /*图标适应*/
+    .icon {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .icon .in {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .icon dl {
+        clear: both;
+        margin: 0;
+        padding: 40px 0;
+        width: 260px;
+    }
+    .log-in,
+    .log-in1,
+    .log-in2 {
+        background-size: 400px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    /*banner适应*/
+    .banner {
+        /*width: 50%;*/
+    }
+    .b-l {
+        width: 100%;
+        margin: 0;
+    }
+    .b-l img {
+        display: block;
+        margin: auto;
+        margin-top: 75px;
+        width: 300px;
+    }
+    .b-r {
+        float: left;
+        margin: 0 auto;
+        padding: 40px 0;
+        background: #86BA26;
+        width: 100%;
+    }
+    .b-r-t {
+        text-align: center;
+    }
+    .b-r-t img {
+        width: 300px;
+    }
+    .b-r-r {
+        float: left;
+        margin-left: 20px;
+    }
+    .b-r-in {
+        margin: 0 auto;
+        width: 341px;
+    }
+    /*图标适应*/
+    .icon {
+        /*width: 50%;*/
+        margin: 0;
+        padding: 0;
+    }
+    .icon .in {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .icon dl {
+        clear: both;
+        margin: 0;
+        padding: 40px 0;
+    }
+    .log {
+        margin: 0;
+        padding: 0;
+        /* width: 50%;*/
+        text-align: center;
+        height: 640px;
+    }
+    .line,
+    .line1 {
+        /*width: 50%;*/
+    }
+    .log-in {
+        background: url(../images/iphone1.png) center 20px no-repeat;
+        height: 620px;
+        background-size: 320px;
+    }
+    .log-in1 {
+        background: url(../images/iphone2.png) center 40px no-repeat;
+        height: 620px;
+        background-size: 320px;
+    }
+    .log-in2 {
+        background: url(../images/iphone3.png) center 40px no-repeat;
+        height: 620px;
+        margin-top: 0;
+        padding: 0;
+        background-size: 320px;
+    }
+    .log p {
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .pp {
+        margin-left: 0;
+    }
+    .p1 {
+        padding: 350px 0 10px 0;
+    }
+    .p3 {
+        padding-top: 20px;
+    }
+    .p4 {
+        padding-top: 390px;
+    }
+    footer img {
+        /*width: 50%;*/
+    }
+}
